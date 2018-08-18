@@ -1,7 +1,8 @@
 # simple-colorful
 Cursor theme, just simple & colorful
 
-=== Simple & Colorful ===
+### Simple & Colorful
+
 There are many definition of cursor on X11 cursor theme, but that is too completate for me.
 
 I realize that only few cursors are used in almost of time when I working on computer in these years.
@@ -19,7 +20,7 @@ There are only few cursor in this theme, but they link to all definition of curs
  * zoom-able: Zoom, Zoom-in & Zoom-out
  * something-else: There are some cursor in theme but I don't really know when they will show
 
-=== License ===
+### License
  * Base on cz-Viator (https://github.com/charakterziffer/cursor-toolbox)
  * simple-colorful is licensed under GPLv3
 
