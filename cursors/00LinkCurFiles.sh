@@ -32,6 +32,8 @@ ln -sf curFiles/click-able.cur 3085a0e285430894940527032f8b26df
 ln -sf curFiles/click-able.cur 640fb0e74195791501fd1ed57b41487f
 ln -sf curFiles/click-able.cur a2a266d0498c3104214a47bd64ab0fc8
 ln -sf curFiles/click-able.cur dnd-link
+ln -sf curFiles/click-able.cur dnd-move
+ln -sf curFiles/click-able.cur dnd-ask
 ln -sf curFiles/click-able.cur pointer
 ln -sf curFiles/click-able.cur pointing_hand
 ln -sf curFiles/click-able.cur hand
@@ -44,7 +46,6 @@ ln -sf curFiles/click-able.cur whats_this
 ln -sf curFiles/click-able.cur gumby
 ln -sf curFiles/click-able.cur 5c6cd98b3f3ebcb1f9c7f1c204630408
 ln -sf curFiles/click-able.cur d9ce0ab605698f320427677b458ad60b
-ln -sf curFiles/click-able.cur dnd-ask
 
 ########################################################### Forbidden #
 ln -sf curFiles/forbidden.cur forbidden
@@ -79,7 +80,6 @@ ln -sf curFiles/move-able.cur fleur
 ln -sf curFiles/move-able.cur 4498f0e0c1937ffe01fd06f973665830
 ln -sf curFiles/move-able.cur 9081237383d90e509aa00f00170e968f
 ln -sf curFiles/move-able.cur fcf21c00b30f7e3f83fe0dfd12e71cff
-ln -sf curFiles/move-able.cur dnd-move
 ln -sf curFiles/move-able.cur all-scroll
 
 ############################################################# Selctor #
