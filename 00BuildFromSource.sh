@@ -5,8 +5,8 @@
 cd "$(dirname "$0")"
 
 ########################################################## Build .cur #
-sh ./source/config/00BuildCurFiles.sh
+sh ./config/00BuildCurFiles.sh
 
 ########################################### Link .cur to cursor theme #
-sh ./cursors/00LinkCurFiles.sh
+sh ./simple-colorful-theme/cursors/00LinkCurFiles.sh
 
