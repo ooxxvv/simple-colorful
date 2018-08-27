@@ -80,7 +80,7 @@ ln -sf $cur_file 5aca4d189052212118709018842178c0
 ln -sf $cur_file 9d800788f1b08800ae810202380a0822
 
 ########################################################### mark-able #
-cur_file=$cur_file/mark-able.cur
+cur_file=curFiles/mark-able.cur
 ###### text: I-beam
 ln -sf $cur_file text
 ln -sf $cur_file ibeam
