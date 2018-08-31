@@ -17,9 +17,9 @@ xcursorgen drag-able.config      $target_folder/drag-able.cur
 xcursorgen forbidden.config      $target_folder/forbidden.cur
 xcursorgen mark-able.config      $target_folder/mark-able.cur
 xcursorgen move-able.config      $target_folder/move-able.cur
-xcursorgen sizer-H.config        $target_folder/sizer-H.cur
-xcursorgen sizer-LR.config       $target_folder/sizer-LR.cur
-xcursorgen sizer-RL.config       $target_folder/sizer-RL.cur
-xcursorgen sizer-V.config        $target_folder/sizer-V.cur
+xcursorgen size-H.config         $target_folder/size-H.cur
+xcursorgen size-LR.config        $target_folder/size-LR.cur
+xcursorgen size-RL.config        $target_folder/size-RL.cur
+xcursorgen size-V.config         $target_folder/size-V.cur
 xcursorgen something-else.config $target_folder/something-else.cur
 
