@@ -22,5 +22,4 @@ xcursorgen sizer-LR.config       $target_folder/sizer-LR.cur
 xcursorgen sizer-RL.config       $target_folder/sizer-RL.cur
 xcursorgen sizer-V.config        $target_folder/sizer-V.cur
 xcursorgen something-else.config $target_folder/something-else.cur
-xcursorgen zoom-able.config      $target_folder/zoom-able.cur
 

@@ -33,7 +33,7 @@ ln -sf $cur_file left-arrow
 
 ########################################################## click-able #
 cur_file=curFiles/click-able.cur
-###### pointer (hand)
+###### pointer (hand)
 ln -sf $cur_file pointer
 ln -sf $cur_file pointing_hand
 ln -sf $cur_file hand
@@ -55,6 +55,16 @@ ln -sf $cur_file 0876e1c15ff2fc01f906f1c363074c0f
 ln -sf $cur_file 3085a0e285430894940527032f8b26df
 ln -sf $cur_file 640fb0e74195791501fd1ed57b41487f
 ln -sf $cur_file a2a266d0498c3104214a47bd64ab0fc8
+###### zoom
+ln -sf $cur_file zoom
+###### zoom in
+ln -sf $cur_file zoom-in
+ln -sf $cur_file zoom_in
+ln -sf $cur_file f41c0e382c94c0958e07017e42b00462
+###### zoom out
+ln -sf $cur_file zoom-out
+ln -sf $cur_file zoom_out
+ln -sf $cur_file f41c0e382c97c0938e07017e42800402
 
 ########################################################### drag-able #
 cur_file=curFiles/drag-able.cur
@@ -127,7 +137,7 @@ ln -sf $cur_file 9081237383d90e509aa00f00170e968f
 ln -sf $cur_file fcf21c00b30f7e3f83fe0dfd12e71cff
 
 ############################################################# sizer-V #
-cur_file=curFiles/sizer-V.cur
+cur_file=curFiles/size-V.cur
 ###### resize NS |
 ln -sf $cur_file ns-resize
 ln -sf $cur_file size_ver
@@ -152,7 +162,7 @@ ln -sf $cur_file bottom_tee
 ln -sf $cur_file top_tee
 
 ############################################################# sizer-H #
-cur_file=curFiles/sizer-H.cur
+cur_file=curFiles/size-H.cur
 ###### resize EW -
 ln -sf $cur_file ew-resize
 ln -sf $cur_file size_hor
@@ -176,7 +186,7 @@ ln -sf $cur_file right_tee
 ln -sf $cur_file left_tee
 
 ############################################################ sizer-LR #
-cur_file=curFiles/sizer-LR.cur
+cur_file=curFiles/size-LR.cur
 ###### resize NW \
 ln -sf $cur_file nw-resize
 ln -sf $cur_file top_left_corner
@@ -190,7 +200,7 @@ ln -sf $cur_file 38c5dff7c7b8962045400281044508d2
 ln -sf $cur_file c7088f0f3e6c8088236ef8e1e3e70000
 
 ############################################################ sizer-RL #
-cur_file=curFiles/sizer-RL.cur
+cur_file=curFiles/size-RL.cur
 ###### resize NE /
 ln -sf $cur_file ne-resize
 ln -sf $cur_file top_right_corner
@@ -202,19 +212,6 @@ ln -sf $cur_file size_bdiag
 ln -sf $cur_file nesw-resize
 ln -sf $cur_file 50585d75b494802d0151028115016902
 ln -sf $cur_file fcf1c3c7cd4491d801f1e1c78f100000
-
-########################################################### zoom-able #
-cur_file=curFiles/zoom-able.cur
-###### zoom
-ln -sf $cur_file zoom
-###### zoom in
-ln -sf $cur_file zoom-in
-ln -sf $cur_file zoom_in
-ln -sf $cur_file f41c0e382c94c0958e07017e42b00462
-###### zoom out
-ln -sf $cur_file zoom-out
-ln -sf $cur_file zoom_out
-ln -sf $cur_file f41c0e382c97c0938e07017e42800402
 
 ###################################################### something-else #
 cur_file=curFiles/something-else.cur
