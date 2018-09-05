@@ -10,12 +10,12 @@ So, I create this theme to collection a lot of definitions into few cursors.
 
 There are only few cursor in this theme, but they link to all definition of cursor theme:
  * a-pointer: Normal Pointer
- * click-able: Any click-able elements (link, button...)
- * input-text: Elements of text typing (text, hand-write, termaial...)
- * move-able: Elements that can be drag and move
- * sizer: Elements that can be re-size (corner, tee...)
+ * click-able: Any click-able elements (link, button, zoom...)
+ * mark-able: Elements of text that can be marked (text, hand-write, termaial...)
+ * drag-able: Elements that can be drag or draging
+ * move-able: Elements that can be moved or moving
+ * size: Elements that can be re-size (corner, tee...)
  * forbidden: Forbidden, Error & Danger
- * zoom-able: Zoom, Zoom-in & Zoom-out
  * something-else: Other cursors of theme but I don't really know when they will show
 
 ### License
