@@ -1,10 +1,10 @@
-#######################################################################
+#!/bin/sh
+#############################################################################
 # Link .cur to each file name of cursor theme
-#######################################################################
-# Set working directory as the directory of this script
+############################################ Working Directory & Variable ###
 cd "$(dirname "$0")"
 
-############################################################ ani-busy #
+################################################################ ani-busy ###
 cur_file=curFiles/ani-busy.cur
 ###### wait
 ln -sf $cur_file wait
@@ -12,7 +12,7 @@ ln -sf $cur_file watch
 ln -sf $cur_file clock
 ln -sf $cur_file 0426c94ea35c87780ff01dc239897213
 
-###################################################### ani-background #
+########################################################## ani-background ###
 cur_file=curFiles/ani-background.cur
 ###### half-busy
 ln -sf $cur_file half-busy
@@ -23,7 +23,7 @@ ln -sf $cur_file 08e8e1c95fe2fc01f976f1e063a24ccd
 ln -sf $cur_file 3ecb610c1bf2410f44200f48c40d3599
 ln -sf $cur_file 9116a3ea924ed2162ecab71ba103b17f
 
-########################################################### a-pointer #
+############################################################### a-pointer ###
 cur_file=curFiles/a-pointer.cur
 ###### default mouse cursor pointing left
 ln -sf $cur_file default
@@ -31,7 +31,7 @@ ln -sf $cur_file left_ptr
 ln -sf $cur_file top_left_arrow
 ln -sf $cur_file left-arrow
 
-########################################################## click-able #
+############################################################## click-able ###
 cur_file=curFiles/click-able.cur
 ###### pointer (hand)
 ln -sf $cur_file pointer
@@ -66,7 +66,7 @@ ln -sf $cur_file zoom-out
 ln -sf $cur_file zoom_out
 ln -sf $cur_file f41c0e382c97c0938e07017e42800402
 
-########################################################### drag-able #
+############################################################### drag-able ###
 cur_file=curFiles/drag-able.cur
 ###### drag-and-drop to create link and other functions
 ln -sf $cur_file dnd-link
@@ -89,7 +89,7 @@ ln -sf $cur_file openhand
 ln -sf $cur_file 5aca4d189052212118709018842178c0
 ln -sf $cur_file 9d800788f1b08800ae810202380a0822
 
-########################################################### mark-able #
+############################################################### mark-able ###
 cur_file=curFiles/mark-able.cur
 ###### text: I-beam
 ln -sf $cur_file text
@@ -108,7 +108,7 @@ ln -sf $cur_file right_ptr
 ln -sf $cur_file top_right_arrow
 ln -sf $cur_file right-arrow
 
-########################################################### forbidden #
+############################################################### forbidden ###
 cur_file=curFiles/forbidden.cur
 ###### forbidden
 ln -sf $cur_file forbidden
@@ -125,7 +125,7 @@ ln -sf $cur_file 03b6e0fcb3499374a867d041f52298f0
 ln -sf $cur_file pirate
 ln -sf $cur_file kill
 
-########################################################### move-able #
+############################################################### move-able ###
 cur_file=curFiles/move-able.cur
 ###### resize all
 ln -sf $cur_file size_all
@@ -136,7 +136,7 @@ ln -sf $cur_file 4498f0e0c1937ffe01fd06f973665830
 ln -sf $cur_file 9081237383d90e509aa00f00170e968f
 ln -sf $cur_file fcf21c00b30f7e3f83fe0dfd12e71cff
 
-############################################################# sizer-V #
+################################################################# sizer-V ###
 cur_file=curFiles/size-V.cur
 ###### resize NS |
 ln -sf $cur_file ns-resize
@@ -161,7 +161,7 @@ ln -sf $cur_file split_v
 ln -sf $cur_file bottom_tee
 ln -sf $cur_file top_tee
 
-############################################################# sizer-H #
+################################################################# sizer-H ###
 cur_file=curFiles/size-H.cur
 ###### resize EW -
 ln -sf $cur_file ew-resize
@@ -185,7 +185,7 @@ ln -sf $cur_file split_h
 ln -sf $cur_file right_tee
 ln -sf $cur_file left_tee
 
-############################################################ sizer-LR #
+################################################################ sizer-LR ###
 cur_file=curFiles/size-LR.cur
 ###### resize NW \
 ln -sf $cur_file nw-resize
@@ -199,7 +199,7 @@ ln -sf $cur_file nwse-resize
 ln -sf $cur_file 38c5dff7c7b8962045400281044508d2
 ln -sf $cur_file c7088f0f3e6c8088236ef8e1e3e70000
 
-############################################################ sizer-RL #
+################################################################ sizer-RL ###
 cur_file=curFiles/size-RL.cur
 ###### resize NE /
 ln -sf $cur_file ne-resize
@@ -213,7 +213,7 @@ ln -sf $cur_file nesw-resize
 ln -sf $cur_file 50585d75b494802d0151028115016902
 ln -sf $cur_file fcf1c3c7cd4491d801f1e1c78f100000
 
-###################################################### something-else #
+########################################################## something-else ###
 cur_file=curFiles/something-else.cur
 ###### scroll in all directions
 ln -sf $cur_file all-scroll

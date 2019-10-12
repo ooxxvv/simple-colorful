@@ -1,18 +1,18 @@
-#######################################################################
+#!/bin/sh
+#############################################################################
 # Create files (.cur) for icon theme
-#######################################################################
-# Set working directory as the directory of this script
+############################################ Working Directory & Variable ###
 cd "$(dirname "$0")"
 
-# Local Variable
 target_folder=$1
 config_folder=./config
 png_prefix=$(pwd)
-################################################################# ANI #
+
+##################################################################### ANI ###
 xcursorgen -p $png_prefix $config_folder/ani-background.config $target_folder/ani-background.cur
 xcursorgen -p $png_prefix $config_folder/ani-busy.config       $target_folder/ani-busy.cur
 
-################################################################# CUR #
+##################################################################### CUR ###
 xcursorgen -p $png_prefix $config_folder/a-pointer.config      $target_folder/a-pointer.cur
 xcursorgen -p $png_prefix $config_folder/click-able.config     $target_folder/click-able.cur
 xcursorgen -p $png_prefix $config_folder/drag-able.config      $target_folder/drag-able.cur
