@@ -33,7 +33,7 @@ ln -sf $cur_file left-arrow
 
 ############################################################## click-able ###
 cur_file=curFiles/click-able.cur
-###### pointer (hand)
+###### pointer (hand)
 ln -sf $cur_file pointer
 ln -sf $cur_file pointing_hand
 ln -sf $cur_file hand
@@ -126,7 +126,8 @@ ln -sf $cur_file pirate
 ln -sf $cur_file kill
 
 ############################################################### move-able ###
-cur_file=curFiles/move-able.cur
+################# As same as drag-able
+cur_file=curFiles/drag-able.cur
 ###### resize all
 ln -sf $cur_file size_all
 ###### move
