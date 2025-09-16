@@ -39,8 +39,6 @@ ln -sf $cur_file pointing_hand
 ln -sf $cur_file hand
 ln -sf $cur_file hand1
 ln -sf $cur_file e29285e634086352946a0e7090d73106
-###### alternative pointer
-ln -sf $cur_file hand2
 ###### help
 ln -sf $cur_file help
 ln -sf $cur_file question_arrow
@@ -68,6 +66,10 @@ ln -sf $cur_file f41c0e382c97c0938e07017e42800402
 
 ############################################################### drag-able ###
 cur_file=curFiles/drag-able.cur
+###### alternative pointer
+ln -sf $cur_file hand2
+###### pencil
+ln -sf $cur_file pencil
 ###### drag-and-drop to create link and other functions
 ln -sf $cur_file dnd-link
 ln -sf $cur_file dnd-ask
@@ -88,6 +90,33 @@ ln -sf $cur_file 208530c400c041818281048008011002
 ln -sf $cur_file openhand
 ln -sf $cur_file 5aca4d189052212118709018842178c0
 ln -sf $cur_file 9d800788f1b08800ae810202380a0822
+###### scroll in all directions
+ln -sf $cur_file all-scroll
+###### cursor pointing up
+ln -sf $cur_file center_ptr
+###### up arrow
+ln -sf $cur_file up_arrow
+###### color picker
+ln -sf $cur_file color-picker
+###### cross - target cursor
+ln -sf $cur_file cross
+ln -sf $cur_file diamond_cross
+ln -sf $cur_file target
+###### cell target
+ln -sf $cur_file cell
+###### plus icon
+ln -sf $cur_file plus
+###### X11 icon
+ln -sf $cur_file X_cursor
+ln -sf $cur_file X-cursor
+###### cursor with context menu emblem
+ln -sf $cur_file context-menu
+ln -sf $cur_file 08ffe1e65f80fcfdf9fff11263e74c48
+###### TK arrow
+ln -sf $cur_file sb_right_arrow
+ln -sf $cur_file sb_left_arrow
+ln -sf $cur_file sb_up_arrow
+ln -sf $cur_file sb_down_arrow
 
 ############################################################### mark-able ###
 cur_file=curFiles/mark-able.cur
@@ -100,8 +129,6 @@ ln -sf $cur_file vertical-text
 ln -sf $cur_file 048008013003cff3c00c801001200000
 ###### text: crosshair	crosshair
 ln -sf $cur_file crosshair
-###### pencil
-ln -sf $cur_file pencil
 ###### cursor pointing right
 ln -sf $cur_file arrow
 ln -sf $cur_file right_ptr
@@ -213,35 +240,3 @@ ln -sf $cur_file size_bdiag
 ln -sf $cur_file nesw-resize
 ln -sf $cur_file 50585d75b494802d0151028115016902
 ln -sf $cur_file fcf1c3c7cd4491d801f1e1c78f100000
-
-########################################################## something-else ###
-cur_file=curFiles/something-else.cur
-###### scroll in all directions
-ln -sf $cur_file all-scroll
-###### cursor pointing up
-ln -sf $cur_file center_ptr
-###### up arrow
-ln -sf $cur_file up_arrow
-###### color picker
-ln -sf $cur_file color-picker
-###### cross - target cursor
-ln -sf $cur_file cross
-ln -sf $cur_file diamond_cross
-ln -sf $cur_file target
-###### cell target
-ln -sf $cur_file cell
-###### plus icon
-ln -sf $cur_file plus
-###### X11 icon
-ln -sf $cur_file X_cursor
-ln -sf $cur_file X-cursor
-###### cursor with context menu emblem
-ln -sf $cur_file context-menu
-ln -sf $cur_file 08ffe1e65f80fcfdf9fff11263e74c48
-###### TK arrow
-ln -sf $cur_file sb_right_arrow
-ln -sf $cur_file sb_left_arrow
-ln -sf $cur_file sb_up_arrow
-ln -sf $cur_file sb_down_arrow
-
-
